@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Combined PBMC Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        h1, h2 { color: #34495e; }
+        img { width: 400px; margin: 10px; border: 1px solid #ccc; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+        th { background-color: #f0f0f0; }
+        .img-row { display: flex; flex-wrap: wrap; justify-content: space-around; }
+    </style>
+</head>
+<body>
+
+<h1>Combined PBMC Filtering Report</h1>
+
+<h2>Summary Metrics</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Label</th>
+      <th>Cells</th>
+      <th>Mean Genes</th>
+      <th>Median Genes</th>
+      <th>Mean UMIs</th>
+      <th>Median UMIs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Standard</td>
+      <td>2700</td>
+      <td>846.994074</td>
+      <td>817.0</td>
+      <td>2366.9004</td>
+      <td>2197.0</td>
+    </tr>
+    <tr>
+      <td>Kneed</td>
+      <td>2695</td>
+      <td>847.991837</td>
+      <td>817.0</td>
+      <td>2370.2615</td>
+      <td>2200.0</td>
+    </tr>
+    <tr>
+      <td>Inflection</td>
+      <td>19</td>
+      <td>2223.315789</td>
+      <td>1997.0</td>
+      <td>8584.2630</td>
+      <td>7171.0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Cluster Cell Type Comparison Across Methods</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Cluster</th>
+      <th>Standard</th>
+      <th>Kneed</th>
+      <th>Inflection</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cluster_0</td>
+      <td>Dendritic cells</td>
+      <td>B cells</td>
+      <td>T cells (activated/proliferating)</td>
+    </tr>
+    <tr>
+      <td>cluster_1</td>
+      <td>Myeloid/monocytic cells</td>
+      <td>T cells (activated/proliferating)</td>
+      <td>Basophils</td>
+    </tr>
+    <tr>
+      <td>cluster_2</td>
+      <td>NK cells</td>
+      <td>NK cells</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>cluster_3</td>
+      <td>T cells (activated/proliferating)</td>
+      <td>B cells</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>cluster_4</td>
+      <td>T cells (activated/proliferating)</td>
+      <td>Dendritic cells</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>cluster_5</td>
+      <td>T cells (activated/proliferating)</td>
+      <td>Lymphocytes</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>cluster_6</td>
+      <td>Myeloid cells</td>
+      <td>Dendritic cells</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>cluster_7</td>
+      <td>Myeloid cells</td>
+      <td>Endothelial cells or progenitors.</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Kneeplots (per Method)</h2>
+<div class="img-row">
+
+    <div>
+        <h3>Standard</h3>
+        <img src="figures/kneeplot/standard/kneeplot_summary.png" alt="Kneeplot">
+    </div>
+
+    <div>
+        <h3>Kneed</h3>
+        <img src="figures/kneeplot/kneed/kneeplot_summary.png" alt="Kneeplot">
+    </div>
+
+    <div>
+        <h3>Inflection</h3>
+        <img src="figures/kneeplot/inflection/kneeplot_summary.png" alt="Kneeplot">
+    </div>
+
+</div>
+
+<h2>UMAPs (Unlabeled, per Method)</h2>
+<div class="img-row">
+
+    <div>
+        <h3>Standard</h3>
+        <img src="figures/UMAP/umap_standard.png" alt="UMAP">
+    </div>
+
+    <div>
+        <h3>Kneed</h3>
+        <img src="figures/UMAP/umap_kneed.png" alt="UMAP">
+    </div>
+
+    <div>
+        <h3>Inflection</h3>
+        <img src="figures/UMAP/umap_inflection.png" alt="UMAP">
+    </div>
+
+</div>
+
+<h2>UMAPs (Labeled, per Method)</h2>
+<div class="img-row">
+
+    <div>
+        <h3>Standard</h3>
+        <img src="figures/UMAP/labeled/umap_labeled_standard.png" alt="Labeled UMAP">
+    </div>
+
+    <div>
+        <h3>Kneed</h3>
+        <img src="figures/UMAP/labeled/umap_labeled_kneed.png" alt="Labeled UMAP">
+    </div>
+
+    <div>
+        <h3>Inflection</h3>
+        <img src="figures/UMAP/labeled/umap_labeled_inflection.png" alt="Labeled UMAP">
+    </div>
+
+</div>
+
+</body>
+</html>

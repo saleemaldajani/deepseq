@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kneed Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        h1 { color: #2c3e50; }
+        img { width: 600px; margin: 20px 0; border: 1px solid #ccc; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+
+<h1>Kneed Report</h1>
+
+<h2>Knee Plot</h2>
+<img src="figures/kneeplot/kneed/kneeplot_summary.png" alt="Knee Plot">
+
+<h2>UMAP (Unlabeled)</h2>
+<img src="figures/UMAP/umap_kneed.png" alt="UMAP Unlabeled">
+
+<h2>UMAP (Labeled)</h2>
+<img src="figures/UMAP/labeled/umap_labeled_kneed.png" alt="UMAP Labeled">
+
+<h2>Cluster Summary Table</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Cluster</th>
+      <th>Top Genes</th>
+      <th>Cell Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cluster_0</td>
+      <td>IL27RA, XXbac-BPG299F13.17, MAGEH1, CCND2, STK17A, AP3M2, MDS2, CD247, SUCLG2, CORO1B</td>
+      <td>B cells</td>
+    </tr>
+    <tr>
+      <td>cluster_1</td>
+      <td>KCNG1, PAX5, BTK, GUCD1, PAWR, PTPRCAP, PLD4, BACE2, RP11-428G5.5, C16orf74</td>
+      <td>T cells (activated/proliferating)</td>
+    </tr>
+    <tr>
+      <td>cluster_2</td>
+      <td>RELT, SMCO4, ARPC1B, HLA-DPB1, FCGRT, CYBA, OAS1, RXRA, NCF2, SRGN</td>
+      <td>NK cells</td>
+    </tr>
+    <tr>
+      <td>cluster_3</td>
+      <td>UBB, C9orf142, PDIA3, C5orf56, KIR3DL2, RAMP1, SRGN, LITAF, KLRC1, IGFBP7</td>
+      <td>B cells</td>
+    </tr>
+    <tr>
+      <td>cluster_4</td>
+      <td>CEBPB, BLVRA, SRGN, C1orf162, TNFAIP2, STX11, APOBEC3A, LINC00936, IL1B, CCL3</td>
+      <td>Dendritic cells</td>
+    </tr>
+    <tr>
+      <td>cluster_5</td>
+      <td>IRF7, IRF8, TNFSF13B, TPM4, ARPC1B, COTL1, LAMTOR1, LST1, ZNF503, PYCARD</td>
+      <td>Lymphocytes</td>
+    </tr>
+    <tr>
+      <td>cluster_6</td>
+      <td>ESAM, FAXDC2, RP11-879F14.2, ODC1, MARCH2, PARVB, SCGB1C1, NCOA4, HGD, C6orf25</td>
+      <td>Dendritic cells</td>
+    </tr>
+    <tr>
+      <td>cluster_7</td>
+      <td>GLRX3, PRPF31, TPM4, JAKMIP1, EXOSC8, MPP6, TMEM208, POLR2E, THOC7, MMADHC</td>
+      <td>Endothelial cells or progenitors.</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

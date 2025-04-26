@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Standard Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        h1 { color: #2c3e50; }
+        img { width: 600px; margin: 20px 0; border: 1px solid #ccc; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+
+<h1>Standard Report</h1>
+
+<h2>Knee Plot</h2>
+<img src="figures/kneeplot/standard/kneeplot_summary.png" alt="Knee Plot">
+
+<h2>UMAP (Unlabeled)</h2>
+<img src="figures/UMAP/umap_standard.png" alt="UMAP Unlabeled">
+
+<h2>UMAP (Labeled)</h2>
+<img src="figures/UMAP/labeled/umap_labeled_standard.png" alt="UMAP Labeled">
+
+<h2>Cluster Summary Table</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Cluster</th>
+      <th>Top Genes</th>
+      <th>Cell Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cluster_0</td>
+      <td>ID2, PLEKHF1, CAPN12, PLEK, S100A4, GYG1, CMC1, GNLY, XCL2, PPP2R2B</td>
+      <td>Dendritic cells</td>
+    </tr>
+    <tr>
+      <td>cluster_1</td>
+      <td>AC079767.4, CYB561A3, ADAM28, POU2AF1, QRSL1, MEF2C, SNX29P2, CD22, SWAP70, MARCH1</td>
+      <td>Myeloid/monocytic cells</td>
+    </tr>
+    <tr>
+      <td>cluster_2</td>
+      <td>GATA3, SEPT1, STMN3, BTG2, SH3YL1, SELM, C14orf64, CISH, CXCR4, GPR183</td>
+      <td>NK cells</td>
+    </tr>
+    <tr>
+      <td>cluster_4</td>
+      <td>LYL1, SMCO4, CPVL, MT2A, HLA-DRB5, LGALS3, APOBEC3B, HLA-DRB1, CTSB, S100A9</td>
+      <td>T cells (activated/proliferating)</td>
+    </tr>
+    <tr>
+      <td>cluster_5</td>
+      <td>NCR1, F2R, ALOX5AP, PTGDS, ABHD17A, PLEK, CCL3, ID2, CCL5, TYROBP</td>
+      <td>T cells (activated/proliferating)</td>
+    </tr>
+    <tr>
+      <td>cluster_6</td>
+      <td>TKT, PSAP, VCAN, PYCARD, TNFSF13B, S100A11, BRI3, MNDA, CTSS, FPR1</td>
+      <td>Myeloid cells</td>
+    </tr>
+    <tr>
+      <td>cluster_3</td>
+      <td>IL7R, NGFRAP1, RGCC, ZNF141, RPS29, PILRB, PASK, PDCD4-AS1, C14orf64, DENND2D</td>
+      <td>T cells (activated/proliferating)</td>
+    </tr>
+    <tr>
+      <td>cluster_7</td>
+      <td>PLA2G12A, ILK, MLH3, TPM4, NGFRAP1, SNN, FAXDC2, HGD, MAP3K7CL, PGRMC1</td>
+      <td>Myeloid cells</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

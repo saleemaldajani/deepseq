@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ method }} Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        h1 { color: #2c3e50; }
+        img { width: 600px; margin: 20px 0; border: 1px solid #ccc; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+
+<h1>{{ method }} Report</h1>
+
+<h2>Knee Plot</h2>
+<img src="{{ kneeplot_img }}" alt="Knee Plot">
+
+<h2>UMAP (Unlabeled)</h2>
+<img src="{{ umap_unlabeled_img }}" alt="UMAP Unlabeled">
+
+<h2>UMAP (Labeled)</h2>
+<img src="{{ umap_labeled_img }}" alt="UMAP Labeled">
+
+<h2>Cluster Summary Table</h2>
+{{ table | safe }}
+
+</body>
+</html>

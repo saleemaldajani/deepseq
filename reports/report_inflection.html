@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inflection Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        h1 { color: #2c3e50; }
+        img { width: 600px; margin: 20px 0; border: 1px solid #ccc; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+
+<h1>Inflection Report</h1>
+
+<h2>Knee Plot</h2>
+<img src="figures/kneeplot/inflection/kneeplot_summary.png" alt="Knee Plot">
+
+<h2>UMAP (Unlabeled)</h2>
+<img src="figures/UMAP/umap_inflection.png" alt="UMAP Unlabeled">
+
+<h2>UMAP (Labeled)</h2>
+<img src="figures/UMAP/labeled/umap_labeled_inflection.png" alt="UMAP Labeled">
+
+<h2>Cluster Summary Table</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Cluster</th>
+      <th>Top Genes</th>
+      <th>Cell Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cluster_0</td>
+      <td>IFI30, CEBPB, RNASE6, RAB32, LYST, TLN1, LRRC25, ZNF385A, CFP, SULF2</td>
+      <td>T cells (activated/proliferating)</td>
+    </tr>
+    <tr>
+      <td>cluster_1</td>
+      <td>AURKB, C14orf142, FAF1, UTP18, ASF1B, POU2AF1, ELOF1, MKI67, ME2, BLK</td>
+      <td>Basophils</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
