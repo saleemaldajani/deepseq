@@ -71,3 +71,11 @@ if __name__ == "__main__":
         host="0.0.0.0",   # ← so it works from external access too if needed
         port=8050         # ← explicit default port
     )
+
+if __name__ == "__main__":
+    app.run(
+        host="0.0.0.0",  # ← so it works from external access too if needed
+        port=8050,  # ← explicit default port
+        debug=True,
+        use_reloader=False,  # <<---- for CodeSpaces terminal
+    )
