@@ -1,6 +1,7 @@
 youtube-comment-downloader
 langchain
 langchain-ollama
+langchain_ollama
 ollama
 numpy
 matplotlib
