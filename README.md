@@ -24,13 +24,7 @@ It automates data filtering, clustering, cell-type classification using LLMs (Ol
 
 ## 🚀 How to Run
 
-1. Make sure you have Python 3.8+, Pip, and Ollama installed.
-2. Make sure Ollama server is running:  
-   ```bash
-   ollama serve
-   ```
-
-3. Then just run:
+Just run:
 
 ```bash
 python 09_runpipeline.py
