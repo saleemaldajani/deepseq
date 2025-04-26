@@ -20,5 +20,5 @@ scanpy
 kneed
 tqdm
 fpdf
-jinjna2
+jinja2
 dash

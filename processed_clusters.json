@@ -14,7 +14,7 @@
       "XCL2",
       "PPP2R2B"
     ],
-    "cell_type_prediction": "Dendritic cells"
+    "cell_type_prediction": "B cells"
   },
   {
     "method": "standard",
@@ -31,7 +31,7 @@
       "SWAP70",
       "MARCH1"
     ],
-    "cell_type_prediction": "Myeloid/monocytic cells"
+    "cell_type_prediction": "B cells"
   },
   {
     "method": "standard",
@@ -48,7 +48,7 @@
       "CXCR4",
       "GPR183"
     ],
-    "cell_type_prediction": "NK cells"
+    "cell_type_prediction": "T cells (activated/proliferating)"
   },
   {
     "method": "standard",
@@ -65,7 +65,7 @@
       "CTSB",
       "S100A9"
     ],
-    "cell_type_prediction": "T cells (activated/proliferating)"
+    "cell_type_prediction": "B cells"
   },
   {
     "method": "standard",
@@ -82,7 +82,7 @@
       "CCL5",
       "TYROBP"
     ],
-    "cell_type_prediction": "T cells (activated/proliferating)"
+    "cell_type_prediction": "Myeloid Cells"
   },
   {
     "method": "standard",
@@ -99,7 +99,7 @@
       "CTSS",
       "FPR1"
     ],
-    "cell_type_prediction": "Myeloid cells"
+    "cell_type_prediction": "B cells"
   },
   {
     "method": "standard",
@@ -116,7 +116,7 @@
       "C14orf64",
       "DENND2D"
     ],
-    "cell_type_prediction": "T cells (activated/proliferating)"
+    "cell_type_prediction": "Macrophages"
   },
   {
     "method": "standard",
@@ -133,7 +133,7 @@
       "MAP3K7CL",
       "PGRMC1"
     ],
-    "cell_type_prediction": "Myeloid cells"
+    "cell_type_prediction": "B cells"
   },
   {
     "method": "kneed",
@@ -150,7 +150,7 @@
       "SUCLG2",
       "CORO1B"
     ],
-    "cell_type_prediction": "B cells"
+    "cell_type_prediction": "Dendritic Cells"
   },
   {
     "method": "kneed",
@@ -167,7 +167,7 @@
       "RP11-428G5.5",
       "C16orf74"
     ],
-    "cell_type_prediction": "T cells (activated/proliferating)"
+    "cell_type_prediction": "Inflammasome"
   },
   {
     "method": "kneed",
@@ -184,7 +184,7 @@
       "NCF2",
       "SRGN"
     ],
-    "cell_type_prediction": "NK cells"
+    "cell_type_prediction": "T cells (activated/proliferating)"
   },
   {
     "method": "kneed",
@@ -218,7 +218,7 @@
       "IL1B",
       "CCL3"
     ],
-    "cell_type_prediction": "Dendritic cells"
+    "cell_type_prediction": "T cells (activated/proliferating)"
   },
   {
     "method": "kneed",
@@ -235,7 +235,7 @@
       "ZNF503",
       "PYCARD"
     ],
-    "cell_type_prediction": "Lymphocytes"
+    "cell_type_prediction": "B cells"
   },
   {
     "method": "kneed",
@@ -252,7 +252,7 @@
       "HGD",
       "C6orf25"
     ],
-    "cell_type_prediction": "Dendritic cells"
+    "cell_type_prediction": "T cells (activated/proliferating)"
   },
   {
     "method": "kneed",
@@ -269,7 +269,7 @@
       "THOC7",
       "MMADHC"
     ],
-    "cell_type_prediction": "Endothelial cells or progenitors."
+    "cell_type_prediction": "B cells"
   },
   {
     "method": "inflection",
@@ -286,7 +286,7 @@
       "CFP",
       "SULF2"
     ],
-    "cell_type_prediction": "T cells (activated/proliferating)"
+    "cell_type_prediction": "B cells"
   },
   {
     "method": "inflection",
@@ -303,6 +303,6 @@
       "ME2",
       "BLK"
     ],
-    "cell_type_prediction": "Basophils"
+    "cell_type_prediction": "B cells"
   }
 ]
