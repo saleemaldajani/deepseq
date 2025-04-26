@@ -33,7 +33,7 @@ It automates data filtering, clustering, cell-type classification using LLMs (Ol
 3. Then just run:
 
 ```bash
-python run_pipeline.py
+python 09_runpipeline.py
 ```
 
 This will:
@@ -126,7 +126,7 @@ deepseq/
 ├── 06_generatereport.py
 ├── 07_prepareassets.py
 ├── 08_deepseq.py
-├── run_pipeline.py
+├── 09_run_pipeline.py
 ├── requirements.txt
 ├── data/
 ├── figures/
