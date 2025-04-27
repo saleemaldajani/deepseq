@@ -141,3 +141,10 @@ deepseq/
 ## 👏 Credits
 
 - Built with ❤️ using [Scanpy](https://scanpy.readthedocs.io/), [Dash](https://dash.plotly.com/), [Ollama](https://ollama.com/), and [Plotly](https://plotly.com/python/).
+
+--- 
+
+## Evaluation 
+
+checkmatch_groundtruth.py
+groundtruth_nk.py

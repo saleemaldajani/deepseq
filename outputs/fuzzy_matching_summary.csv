@@ -1,0 +1,13 @@
+Model,Method,Total Clusters,Correct Clusters,Accuracy (%)
+gpt-4o,standard,8,8,100.0
+gpt-4o,kneed,8,3,37.5
+gpt-4o,inflection,2,0,0.0
+gpt-4o-2024-05-13,standard,8,8,100.0
+gpt-4o-2024-05-13,kneed,8,2,25.0
+gpt-4o-2024-05-13,inflection,2,0,0.0
+gpt-3.5-turbo,standard,8,8,100.0
+gpt-3.5-turbo,kneed,8,3,37.5
+gpt-3.5-turbo,inflection,2,0,0.0
+llama3.2-1b,standard,8,4,50.0
+llama3.2-1b,kneed,8,3,37.5
+llama3.2-1b,inflection,2,1,50.0

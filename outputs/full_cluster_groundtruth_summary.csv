@@ -1,0 +1,73 @@
+Model,Method,Cluster,Top Genes,Predicted,Ground Truth (Fine),Ground Truth (Broad),Matching Markers,Correct
+gpt-4o,standard,cluster_0,"['ID2', 'PLEKHF1', 'CAPN12', 'PLEK', 'S100A4', 'GYG1', 'CMC1', 'GNLY', 'XCL2', 'PPP2R2B']",Natural killer (NK) cells,NK cells,NK cells,3,True
+gpt-4o,standard,cluster_1,"['AC079767.4', 'CYB561A3', 'ADAM28', 'POU2AF1', 'QRSL1', 'MEF2C', 'SNX29P2', 'CD22', 'SWAP70', 'MARCH1']",B cell,B cells,B cells,2,True
+gpt-4o,standard,cluster_2,"['GATA3', 'SEPT1', 'STMN3', 'BTG2', 'SH3YL1', 'SELM', 'C14orf64', 'CISH', 'CXCR4', 'GPR183']",T helper 2 (Th2) cells,Platelets,Platelets,1,True
+gpt-4o,standard,cluster_4,"['LYL1', 'SMCO4', 'CPVL', 'MT2A', 'HLA-DRB5', 'LGALS3', 'APOBEC3B', 'HLA-DRB1', 'CTSB', 'S100A9']",Monocyte,Classical monocytes,Monocytes,1,True
+gpt-4o,standard,cluster_5,"['NCR1', 'F2R', 'ALOX5AP', 'PTGDS', 'ABHD17A', 'PLEK', 'CCL3', 'ID2', 'CCL5', 'TYROBP']",Natural killer (NK) cells,NK cells,NK cells,1,True
+gpt-4o,standard,cluster_6,"['TKT', 'PSAP', 'VCAN', 'PYCARD', 'TNFSF13B', 'S100A11', 'BRI3', 'MNDA', 'CTSS', 'FPR1']",Monocyte,Classical monocytes,Monocytes,1,True
+gpt-4o,standard,cluster_3,"['IL7R', 'NGFRAP1', 'RGCC', 'ZNF141', 'RPS29', 'PILRB', 'PASK', 'PDCD4-AS1', 'C14orf64', 'DENND2D']",T cells,Naive CD4 T cells,T cells,1,True
+gpt-4o,standard,cluster_7,"['PLA2G12A', 'ILK', 'MLH3', 'TPM4', 'NGFRAP1', 'SNN', 'FAXDC2', 'HGD', 'MAP3K7CL', 'PGRMC1']",T cells,Effector CD8 T cells,T cells,1,True
+gpt-4o,kneed,cluster_0,"['IL27RA', 'XXbac-BPG299F13.17', 'MAGEH1', 'CCND2', 'STK17A', 'AP3M2', 'MDS2', 'CD247', 'SUCLG2', 'CORO1B']",T cells,Unknown,Unknown,0,False
+gpt-4o,kneed,cluster_1,"['KCNG1', 'PAX5', 'BTK', 'GUCD1', 'PAWR', 'PTPRCAP', 'PLD4', 'BACE2', 'RP11-428G5.5', 'C16orf74']",B cell,Effector CD8 T cells,T cells,2,False
+gpt-4o,kneed,cluster_2,"['RELT', 'SMCO4', 'ARPC1B', 'HLA-DPB1', 'FCGRT', 'CYBA', 'OAS1', 'RXRA', 'NCF2', 'SRGN']",Monocyte,Unknown,Unknown,0,False
+gpt-4o,kneed,cluster_3,"['UBB', 'C9orf142', 'PDIA3', 'C5orf56', 'KIR3DL2', 'RAMP1', 'SRGN', 'LITAF', 'KLRC1', 'IGFBP7']",Natural killer (NK) cells,Effector CD8 T cells,T cells,1,False
+gpt-4o,kneed,cluster_4,"['CEBPB', 'BLVRA', 'SRGN', 'C1orf162', 'TNFAIP2', 'STX11', 'APOBEC3A', 'LINC00936', 'IL1B', 'CCL3']",Monocyte,Unknown,Unknown,0,False
+gpt-4o,kneed,cluster_5,"['IRF7', 'IRF8', 'TNFSF13B', 'TPM4', 'ARPC1B', 'COTL1', 'LAMTOR1', 'LST1', 'ZNF503', 'PYCARD']",Monocytes.,Plasmacytoid DCs,Dendritic cells,2,True
+gpt-4o,kneed,cluster_6,"['ESAM', 'FAXDC2', 'RP11-879F14.2', 'ODC1', 'MARCH2', 'PARVB', 'SCGB1C1', 'NCOA4', 'HGD', 'C6orf25']",Monocytes,Endothelial cells,Endothelial cells,1,True
+gpt-4o,kneed,cluster_7,"['GLRX3', 'PRPF31', 'TPM4', 'JAKMIP1', 'EXOSC8', 'MPP6', 'TMEM208', 'POLR2E', 'THOC7', 'MMADHC']",CD8⁺ T cells,Effector CD8 T cells,T cells,1,True
+gpt-4o,inflection,cluster_0,"['IFI30', 'CEBPB', 'RNASE6', 'RAB32', 'LYST', 'TLN1', 'LRRC25', 'ZNF385A', 'CFP', 'SULF2']",Monocyte,Unknown,Unknown,0,False
+gpt-4o,inflection,cluster_1,"['AURKB', 'C14orf142', 'FAF1', 'UTP18', 'ASF1B', 'POU2AF1', 'ELOF1', 'MKI67', 'ME2', 'BLK']",B cells,Effector CD8 T cells,T cells,1,False
+gpt-4o-2024-05-13,standard,cluster_0,"['ID2', 'PLEKHF1', 'CAPN12', 'PLEK', 'S100A4', 'GYG1', 'CMC1', 'GNLY', 'XCL2', 'PPP2R2B']",Natural killer (NK) cell,NK cells,NK cells,3,True
+gpt-4o-2024-05-13,standard,cluster_1,"['AC079767.4', 'CYB561A3', 'ADAM28', 'POU2AF1', 'QRSL1', 'MEF2C', 'SNX29P2', 'CD22', 'SWAP70', 'MARCH1']",B cell,B cells,B cells,2,True
+gpt-4o-2024-05-13,standard,cluster_2,"['GATA3', 'SEPT1', 'STMN3', 'BTG2', 'SH3YL1', 'SELM', 'C14orf64', 'CISH', 'CXCR4', 'GPR183']",T cell,Platelets,Platelets,1,True
+gpt-4o-2024-05-13,standard,cluster_4,"['LYL1', 'SMCO4', 'CPVL', 'MT2A', 'HLA-DRB5', 'LGALS3', 'APOBEC3B', 'HLA-DRB1', 'CTSB', 'S100A9']",Monocyte,Classical monocytes,Monocytes,1,True
+gpt-4o-2024-05-13,standard,cluster_5,"['NCR1', 'F2R', 'ALOX5AP', 'PTGDS', 'ABHD17A', 'PLEK', 'CCL3', 'ID2', 'CCL5', 'TYROBP']",Natural Killer (NK) cells,NK cells,NK cells,1,True
+gpt-4o-2024-05-13,standard,cluster_6,"['TKT', 'PSAP', 'VCAN', 'PYCARD', 'TNFSF13B', 'S100A11', 'BRI3', 'MNDA', 'CTSS', 'FPR1']",Monocytes,Classical monocytes,Monocytes,1,True
+gpt-4o-2024-05-13,standard,cluster_3,"['IL7R', 'NGFRAP1', 'RGCC', 'ZNF141', 'RPS29', 'PILRB', 'PASK', 'PDCD4-AS1', 'C14orf64', 'DENND2D']","The top marker genes for cluster_3, including IL7R, NGFRAP1, RGCC, ZNF141, RPS29, PILRB, PASK, PDCD4-AS1, C14orf64, and DENND2D, suggest that this cluster most likely represents memory T cells. IL7R (Interleukin-7 receptor alpha) is notably expressed on memory T cells, playing a crucial role in their survival and homeostasis. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Memory_T_cell?utm_source=openai))",Naive CD4 T cells,T cells,1,True
+gpt-4o-2024-05-13,standard,cluster_7,"['PLA2G12A', 'ILK', 'MLH3', 'TPM4', 'NGFRAP1', 'SNN', 'FAXDC2', 'HGD', 'MAP3K7CL', 'PGRMC1']",T cell,Effector CD8 T cells,T cells,1,True
+gpt-4o-2024-05-13,kneed,cluster_0,"['IL27RA', 'XXbac-BPG299F13.17', 'MAGEH1', 'CCND2', 'STK17A', 'AP3M2', 'MDS2', 'CD247', 'SUCLG2', 'CORO1B']",T cell,Unknown,Unknown,0,False
+gpt-4o-2024-05-13,kneed,cluster_1,"['KCNG1', 'PAX5', 'BTK', 'GUCD1', 'PAWR', 'PTPRCAP', 'PLD4', 'BACE2', 'RP11-428G5.5', 'C16orf74']",B cell,Effector CD8 T cells,T cells,2,False
+gpt-4o-2024-05-13,kneed,cluster_2,"['RELT', 'SMCO4', 'ARPC1B', 'HLA-DPB1', 'FCGRT', 'CYBA', 'OAS1', 'RXRA', 'NCF2', 'SRGN']",Monocyte,Unknown,Unknown,0,False
+gpt-4o-2024-05-13,kneed,cluster_3,"['UBB', 'C9orf142', 'PDIA3', 'C5orf56', 'KIR3DL2', 'RAMP1', 'SRGN', 'LITAF', 'KLRC1', 'IGFBP7']",,Effector CD8 T cells,T cells,1,False
+gpt-4o-2024-05-13,kneed,cluster_4,"['CEBPB', 'BLVRA', 'SRGN', 'C1orf162', 'TNFAIP2', 'STX11', 'APOBEC3A', 'LINC00936', 'IL1B', 'CCL3']",Monocytes,Unknown,Unknown,0,False
+gpt-4o-2024-05-13,kneed,cluster_5,"['IRF7', 'IRF8', 'TNFSF13B', 'TPM4', 'ARPC1B', 'COTL1', 'LAMTOR1', 'LST1', 'ZNF503', 'PYCARD']",Dendritic cells,Plasmacytoid DCs,Dendritic cells,2,True
+gpt-4o-2024-05-13,kneed,cluster_6,"['ESAM', 'FAXDC2', 'RP11-879F14.2', 'ODC1', 'MARCH2', 'PARVB', 'SCGB1C1', 'NCOA4', 'HGD', 'C6orf25']",Effector memory CD4 T cell,Endothelial cells,Endothelial cells,1,True
+gpt-4o-2024-05-13,kneed,cluster_7,"['GLRX3', 'PRPF31', 'TPM4', 'JAKMIP1', 'EXOSC8', 'MPP6', 'TMEM208', 'POLR2E', 'THOC7', 'MMADHC']",B cells,Effector CD8 T cells,T cells,1,False
+gpt-4o-2024-05-13,inflection,cluster_0,"['IFI30', 'CEBPB', 'RNASE6', 'RAB32', 'LYST', 'TLN1', 'LRRC25', 'ZNF385A', 'CFP', 'SULF2']",Monocyte,Unknown,Unknown,0,False
+gpt-4o-2024-05-13,inflection,cluster_1,"['AURKB', 'C14orf142', 'FAF1', 'UTP18', 'ASF1B', 'POU2AF1', 'ELOF1', 'MKI67', 'ME2', 'BLK']",,Effector CD8 T cells,T cells,1,False
+gpt-3.5-turbo,standard,cluster_0,"['ID2', 'PLEKHF1', 'CAPN12', 'PLEK', 'S100A4', 'GYG1', 'CMC1', 'GNLY', 'XCL2', 'PPP2R2B']",Natural killer (NK) cell,NK cells,NK cells,3,True
+gpt-3.5-turbo,standard,cluster_1,"['AC079767.4', 'CYB561A3', 'ADAM28', 'POU2AF1', 'QRSL1', 'MEF2C', 'SNX29P2', 'CD22', 'SWAP70', 'MARCH1']",B cell,B cells,B cells,2,True
+gpt-3.5-turbo,standard,cluster_2,"['GATA3', 'SEPT1', 'STMN3', 'BTG2', 'SH3YL1', 'SELM', 'C14orf64', 'CISH', 'CXCR4', 'GPR183']",Memory CD4 T-cell,Platelets,Platelets,1,True
+gpt-3.5-turbo,standard,cluster_4,"['LYL1', 'SMCO4', 'CPVL', 'MT2A', 'HLA-DRB5', 'LGALS3', 'APOBEC3B', 'HLA-DRB1', 'CTSB', 'S100A9']",Monocyte,Classical monocytes,Monocytes,1,True
+gpt-3.5-turbo,standard,cluster_5,"['NCR1', 'F2R', 'ALOX5AP', 'PTGDS', 'ABHD17A', 'PLEK', 'CCL3', 'ID2', 'CCL5', 'TYROBP']",Natural killer (NK) cells,NK cells,NK cells,1,True
+gpt-3.5-turbo,standard,cluster_6,"['TKT', 'PSAP', 'VCAN', 'PYCARD', 'TNFSF13B', 'S100A11', 'BRI3', 'MNDA', 'CTSS', 'FPR1']",Monocytes,Classical monocytes,Monocytes,1,True
+gpt-3.5-turbo,standard,cluster_3,"['IL7R', 'NGFRAP1', 'RGCC', 'ZNF141', 'RPS29', 'PILRB', 'PASK', 'PDCD4-AS1', 'C14orf64', 'DENND2D']",T cell,Naive CD4 T cells,T cells,1,True
+gpt-3.5-turbo,standard,cluster_7,"['PLA2G12A', 'ILK', 'MLH3', 'TPM4', 'NGFRAP1', 'SNN', 'FAXDC2', 'HGD', 'MAP3K7CL', 'PGRMC1']",T cells,Effector CD8 T cells,T cells,1,True
+gpt-3.5-turbo,kneed,cluster_0,"['IL27RA', 'XXbac-BPG299F13.17', 'MAGEH1', 'CCND2', 'STK17A', 'AP3M2', 'MDS2', 'CD247', 'SUCLG2', 'CORO1B']",T cells,Unknown,Unknown,0,False
+gpt-3.5-turbo,kneed,cluster_1,"['KCNG1', 'PAX5', 'BTK', 'GUCD1', 'PAWR', 'PTPRCAP', 'PLD4', 'BACE2', 'RP11-428G5.5', 'C16orf74']",B cells,Effector CD8 T cells,T cells,2,False
+gpt-3.5-turbo,kneed,cluster_2,"['RELT', 'SMCO4', 'ARPC1B', 'HLA-DPB1', 'FCGRT', 'CYBA', 'OAS1', 'RXRA', 'NCF2', 'SRGN']",Monocyte,Unknown,Unknown,0,False
+gpt-3.5-turbo,kneed,cluster_3,"['UBB', 'C9orf142', 'PDIA3', 'C5orf56', 'KIR3DL2', 'RAMP1', 'SRGN', 'LITAF', 'KLRC1', 'IGFBP7']",Natural killer (NK) cells,Effector CD8 T cells,T cells,1,False
+gpt-3.5-turbo,kneed,cluster_4,"['CEBPB', 'BLVRA', 'SRGN', 'C1orf162', 'TNFAIP2', 'STX11', 'APOBEC3A', 'LINC00936', 'IL1B', 'CCL3']",Monocytes,Unknown,Unknown,0,False
+gpt-3.5-turbo,kneed,cluster_5,"['IRF7', 'IRF8', 'TNFSF13B', 'TPM4', 'ARPC1B', 'COTL1', 'LAMTOR1', 'LST1', 'ZNF503', 'PYCARD']",Monocyte,Plasmacytoid DCs,Dendritic cells,2,True
+gpt-3.5-turbo,kneed,cluster_6,"['ESAM', 'FAXDC2', 'RP11-879F14.2', 'ODC1', 'MARCH2', 'PARVB', 'SCGB1C1', 'NCOA4', 'HGD', 'C6orf25']","The top marker genes ESAM, FAXDC2, RP11-879F14.2, ODC1, MARCH2, PARVB, SCGB1C1, NCOA4, HGD, and C6orf25 are associated with endothelial cells.",Endothelial cells,Endothelial cells,1,True
+gpt-3.5-turbo,kneed,cluster_7,"['GLRX3', 'PRPF31', 'TPM4', 'JAKMIP1', 'EXOSC8', 'MPP6', 'TMEM208', 'POLR2E', 'THOC7', 'MMADHC']",Monocytes,Effector CD8 T cells,T cells,1,True
+gpt-3.5-turbo,inflection,cluster_0,"['IFI30', 'CEBPB', 'RNASE6', 'RAB32', 'LYST', 'TLN1', 'LRRC25', 'ZNF385A', 'CFP', 'SULF2']",Monocyte,Unknown,Unknown,0,False
+gpt-3.5-turbo,inflection,cluster_1,"['AURKB', 'C14orf142', 'FAF1', 'UTP18', 'ASF1B', 'POU2AF1', 'ELOF1', 'MKI67', 'ME2', 'BLK']",B cell,Effector CD8 T cells,T cells,1,False
+llama3.2-1b,standard,cluster_0,"['ID2', 'PLEKHF1', 'CAPN12', 'PLEK', 'S100A4', 'GYG1', 'CMC1', 'GNLY', 'XCL2', 'PPP2R2B']",T cells (activated/proliferating),NK cells,NK cells,3,False
+llama3.2-1b,standard,cluster_1,"['AC079767.4', 'CYB561A3', 'ADAM28', 'POU2AF1', 'QRSL1', 'MEF2C', 'SNX29P2', 'CD22', 'SWAP70', 'MARCH1']",CD22,B cells,B cells,2,False
+llama3.2-1b,standard,cluster_2,"['GATA3', 'SEPT1', 'STMN3', 'BTG2', 'SH3YL1', 'SELM', 'C14orf64', 'CISH', 'CXCR4', 'GPR183']",NK cells,Platelets,Platelets,1,False
+llama3.2-1b,standard,cluster_4,"['LYL1', 'SMCO4', 'CPVL', 'MT2A', 'HLA-DRB5', 'LGALS3', 'APOBEC3B', 'HLA-DRB1', 'CTSB', 'S100A9']",T cells (activated/proliferating),Classical monocytes,Monocytes,1,True
+llama3.2-1b,standard,cluster_5,"['NCR1', 'F2R', 'ALOX5AP', 'PTGDS', 'ABHD17A', 'PLEK', 'CCL3', 'ID2', 'CCL5', 'TYROBP']",B cells,NK cells,NK cells,1,False
+llama3.2-1b,standard,cluster_6,"['TKT', 'PSAP', 'VCAN', 'PYCARD', 'TNFSF13B', 'S100A11', 'BRI3', 'MNDA', 'CTSS', 'FPR1']",T cells (activated/proliferating),Classical monocytes,Monocytes,1,True
+llama3.2-1b,standard,cluster_3,"['IL7R', 'NGFRAP1', 'RGCC', 'ZNF141', 'RPS29', 'PILRB', 'PASK', 'PDCD4-AS1', 'C14orf64', 'DENND2D']",T cells (activated/proliferating),Naive CD4 T cells,T cells,1,True
+llama3.2-1b,standard,cluster_7,"['PLA2G12A', 'ILK', 'MLH3', 'TPM4', 'NGFRAP1', 'SNN', 'FAXDC2', 'HGD', 'MAP3K7CL', 'PGRMC1']",T cells (activated/proliferating),Effector CD8 T cells,T cells,1,True
+llama3.2-1b,kneed,cluster_0,"['IL27RA', 'XXbac-BPG299F13.17', 'MAGEH1', 'CCND2', 'STK17A', 'AP3M2', 'MDS2', 'CD247', 'SUCLG2', 'CORO1B']",B cells,Unknown,Unknown,0,False
+llama3.2-1b,kneed,cluster_1,"['KCNG1', 'PAX5', 'BTK', 'GUCD1', 'PAWR', 'PTPRCAP', 'PLD4', 'BACE2', 'RP11-428G5.5', 'C16orf74']",Neutrophils,Effector CD8 T cells,T cells,2,True
+llama3.2-1b,kneed,cluster_2,"['RELT', 'SMCO4', 'ARPC1B', 'HLA-DPB1', 'FCGRT', 'CYBA', 'OAS1', 'RXRA', 'NCF2', 'SRGN']",T cells (activated/proliferating),Unknown,Unknown,0,False
+llama3.2-1b,kneed,cluster_3,"['UBB', 'C9orf142', 'PDIA3', 'C5orf56', 'KIR3DL2', 'RAMP1', 'SRGN', 'LITAF', 'KLRC1', 'IGFBP7']",T cells (activated/proliferating),Effector CD8 T cells,T cells,1,True
+llama3.2-1b,kneed,cluster_4,"['CEBPB', 'BLVRA', 'SRGN', 'C1orf162', 'TNFAIP2', 'STX11', 'APOBEC3A', 'LINC00936', 'IL1B', 'CCL3']",B cells,Unknown,Unknown,0,False
+llama3.2-1b,kneed,cluster_5,"['IRF7', 'IRF8', 'TNFSF13B', 'TPM4', 'ARPC1B', 'COTL1', 'LAMTOR1', 'LST1', 'ZNF503', 'PYCARD']",T cells,Plasmacytoid DCs,Dendritic cells,2,True
+llama3.2-1b,kneed,cluster_6,"['ESAM', 'FAXDC2', 'RP11-879F14.2', 'ODC1', 'MARCH2', 'PARVB', 'SCGB1C1', 'NCOA4', 'HGD', 'C6orf25']",B cells,Endothelial cells,Endothelial cells,1,False
+llama3.2-1b,kneed,cluster_7,"['GLRX3', 'PRPF31', 'TPM4', 'JAKMIP1', 'EXOSC8', 'MPP6', 'TMEM208', 'POLR2E', 'THOC7', 'MMADHC']",B cells,Effector CD8 T cells,T cells,1,False
+llama3.2-1b,inflection,cluster_0,"['IFI30', 'CEBPB', 'RNASE6', 'RAB32', 'LYST', 'TLN1', 'LRRC25', 'ZNF385A', 'CFP', 'SULF2']",T cells (activated/proliferating),Unknown,Unknown,0,False
+llama3.2-1b,inflection,cluster_1,"['AURKB', 'C14orf142', 'FAF1', 'UTP18', 'ASF1B', 'POU2AF1', 'ELOF1', 'MKI67', 'ME2', 'BLK']",Lymphocytes,Effector CD8 T cells,T cells,1,True

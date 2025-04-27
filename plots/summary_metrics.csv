@@ -1,0 +1,13 @@
+Model,Method,ARI,NMI
+gpt-4o-2024-05-13,standard,1.0,1.0
+gpt-3.5-turbo,kneed,1.0,1.0
+gpt-4o,standard,1.0,1.0
+gpt-3.5-turbo,standard,1.0,1.0
+gpt-4o-2024-05-13,kneed,1.0,1.0
+gpt-4o,kneed,0.997,0.989
+gpt-3.5-turbo,inflection,0.958,0.928
+llama3-1b,inflection,0.958,0.928
+gpt-4o,inflection,0.958,0.928
+gpt-4o-2024-05-13,inflection,0.958,0.928
+llama3-1b,kneed,0.949,0.925
+llama3-1b,standard,0.837,0.881

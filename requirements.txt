@@ -23,3 +23,5 @@ tqdm
 fpdf
 jinja2
 dash
+igraph
+leidenalg

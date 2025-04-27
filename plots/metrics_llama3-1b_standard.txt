@@ -1,0 +1,2 @@
+Adjusted Rand Index (ARI): 0.837
+Normalized Mutual Information (NMI): 0.881
