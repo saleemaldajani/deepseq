@@ -1,0 +1,308 @@
+[
+  {
+    "method": "standard",
+    "cluster": "cluster_0",
+    "top_genes": [
+      "ID2",
+      "PLEKHF1",
+      "CAPN12",
+      "PLEK",
+      "S100A4",
+      "GYG1",
+      "CMC1",
+      "GNLY",
+      "XCL2",
+      "PPP2R2B"
+    ],
+    "cell_type_prediction": "Natural killer (NK) cells"
+  },
+  {
+    "method": "standard",
+    "cluster": "cluster_1",
+    "top_genes": [
+      "AC079767.4",
+      "CYB561A3",
+      "ADAM28",
+      "POU2AF1",
+      "QRSL1",
+      "MEF2C",
+      "SNX29P2",
+      "CD22",
+      "SWAP70",
+      "MARCH1"
+    ],
+    "cell_type_prediction": "B cell"
+  },
+  {
+    "method": "standard",
+    "cluster": "cluster_2",
+    "top_genes": [
+      "GATA3",
+      "SEPT1",
+      "STMN3",
+      "BTG2",
+      "SH3YL1",
+      "SELM",
+      "C14orf64",
+      "CISH",
+      "CXCR4",
+      "GPR183"
+    ],
+    "cell_type_prediction": "T helper 2 (Th2) cells"
+  },
+  {
+    "method": "standard",
+    "cluster": "cluster_4",
+    "top_genes": [
+      "LYL1",
+      "SMCO4",
+      "CPVL",
+      "MT2A",
+      "HLA-DRB5",
+      "LGALS3",
+      "APOBEC3B",
+      "HLA-DRB1",
+      "CTSB",
+      "S100A9"
+    ],
+    "cell_type_prediction": "Monocyte"
+  },
+  {
+    "method": "standard",
+    "cluster": "cluster_5",
+    "top_genes": [
+      "NCR1",
+      "F2R",
+      "ALOX5AP",
+      "PTGDS",
+      "ABHD17A",
+      "PLEK",
+      "CCL3",
+      "ID2",
+      "CCL5",
+      "TYROBP"
+    ],
+    "cell_type_prediction": "Natural killer (NK) cells"
+  },
+  {
+    "method": "standard",
+    "cluster": "cluster_6",
+    "top_genes": [
+      "TKT",
+      "PSAP",
+      "VCAN",
+      "PYCARD",
+      "TNFSF13B",
+      "S100A11",
+      "BRI3",
+      "MNDA",
+      "CTSS",
+      "FPR1"
+    ],
+    "cell_type_prediction": "Monocyte"
+  },
+  {
+    "method": "standard",
+    "cluster": "cluster_3",
+    "top_genes": [
+      "IL7R",
+      "NGFRAP1",
+      "RGCC",
+      "ZNF141",
+      "RPS29",
+      "PILRB",
+      "PASK",
+      "PDCD4-AS1",
+      "C14orf64",
+      "DENND2D"
+    ],
+    "cell_type_prediction": "T cells"
+  },
+  {
+    "method": "standard",
+    "cluster": "cluster_7",
+    "top_genes": [
+      "PLA2G12A",
+      "ILK",
+      "MLH3",
+      "TPM4",
+      "NGFRAP1",
+      "SNN",
+      "FAXDC2",
+      "HGD",
+      "MAP3K7CL",
+      "PGRMC1"
+    ],
+    "cell_type_prediction": "T cells"
+  },
+  {
+    "method": "kneed",
+    "cluster": "cluster_0",
+    "top_genes": [
+      "IL27RA",
+      "XXbac-BPG299F13.17",
+      "MAGEH1",
+      "CCND2",
+      "STK17A",
+      "AP3M2",
+      "MDS2",
+      "CD247",
+      "SUCLG2",
+      "CORO1B"
+    ],
+    "cell_type_prediction": "T cells"
+  },
+  {
+    "method": "kneed",
+    "cluster": "cluster_1",
+    "top_genes": [
+      "KCNG1",
+      "PAX5",
+      "BTK",
+      "GUCD1",
+      "PAWR",
+      "PTPRCAP",
+      "PLD4",
+      "BACE2",
+      "RP11-428G5.5",
+      "C16orf74"
+    ],
+    "cell_type_prediction": "B cell"
+  },
+  {
+    "method": "kneed",
+    "cluster": "cluster_2",
+    "top_genes": [
+      "RELT",
+      "SMCO4",
+      "ARPC1B",
+      "HLA-DPB1",
+      "FCGRT",
+      "CYBA",
+      "OAS1",
+      "RXRA",
+      "NCF2",
+      "SRGN"
+    ],
+    "cell_type_prediction": "Monocyte"
+  },
+  {
+    "method": "kneed",
+    "cluster": "cluster_3",
+    "top_genes": [
+      "UBB",
+      "C9orf142",
+      "PDIA3",
+      "C5orf56",
+      "KIR3DL2",
+      "RAMP1",
+      "SRGN",
+      "LITAF",
+      "KLRC1",
+      "IGFBP7"
+    ],
+    "cell_type_prediction": "Natural killer (NK) cells"
+  },
+  {
+    "method": "kneed",
+    "cluster": "cluster_4",
+    "top_genes": [
+      "CEBPB",
+      "BLVRA",
+      "SRGN",
+      "C1orf162",
+      "TNFAIP2",
+      "STX11",
+      "APOBEC3A",
+      "LINC00936",
+      "IL1B",
+      "CCL3"
+    ],
+    "cell_type_prediction": "Monocyte"
+  },
+  {
+    "method": "kneed",
+    "cluster": "cluster_5",
+    "top_genes": [
+      "IRF7",
+      "IRF8",
+      "TNFSF13B",
+      "TPM4",
+      "ARPC1B",
+      "COTL1",
+      "LAMTOR1",
+      "LST1",
+      "ZNF503",
+      "PYCARD"
+    ],
+    "cell_type_prediction": "Monocytes."
+  },
+  {
+    "method": "kneed",
+    "cluster": "cluster_6",
+    "top_genes": [
+      "ESAM",
+      "FAXDC2",
+      "RP11-879F14.2",
+      "ODC1",
+      "MARCH2",
+      "PARVB",
+      "SCGB1C1",
+      "NCOA4",
+      "HGD",
+      "C6orf25"
+    ],
+    "cell_type_prediction": "Monocytes"
+  },
+  {
+    "method": "kneed",
+    "cluster": "cluster_7",
+    "top_genes": [
+      "GLRX3",
+      "PRPF31",
+      "TPM4",
+      "JAKMIP1",
+      "EXOSC8",
+      "MPP6",
+      "TMEM208",
+      "POLR2E",
+      "THOC7",
+      "MMADHC"
+    ],
+    "cell_type_prediction": "CD8\u207a T cells"
+  },
+  {
+    "method": "inflection",
+    "cluster": "cluster_0",
+    "top_genes": [
+      "IFI30",
+      "CEBPB",
+      "RNASE6",
+      "RAB32",
+      "LYST",
+      "TLN1",
+      "LRRC25",
+      "ZNF385A",
+      "CFP",
+      "SULF2"
+    ],
+    "cell_type_prediction": "Monocyte"
+  },
+  {
+    "method": "inflection",
+    "cluster": "cluster_1",
+    "top_genes": [
+      "AURKB",
+      "C14orf142",
+      "FAF1",
+      "UTP18",
+      "ASF1B",
+      "POU2AF1",
+      "ELOF1",
+      "MKI67",
+      "ME2",
+      "BLK"
+    ],
+    "cell_type_prediction": "B cells"
+  }
+]
