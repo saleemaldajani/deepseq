@@ -3,52 +3,52 @@
     "method": "standard",
     "cluster": "cluster_0",
     "top_genes": [
-      "ID2",
+      "PIM1",
       "PLEKHF1",
       "CAPN12",
-      "PLEK",
-      "S100A4",
+      "ID2",
       "GYG1",
+      "S100A4",
       "CMC1",
       "GNLY",
       "XCL2",
       "PPP2R2B"
     ],
-    "cell_type_prediction": "Natural killer (NK) cells"
+    "cell_type_prediction": "Natural Killer (NK) cells"
   },
   {
     "method": "standard",
-    "cluster": "cluster_1",
+    "cluster": "cluster_3",
     "top_genes": [
-      "AC079767.4",
-      "CYB561A3",
       "ADAM28",
+      "CYB561A3",
       "POU2AF1",
-      "QRSL1",
       "MEF2C",
+      "AC079767.4",
+      "QRSL1",
       "SNX29P2",
       "CD22",
-      "SWAP70",
-      "MARCH1"
+      "MARCH1",
+      "SWAP70"
     ],
-    "cell_type_prediction": "B cell"
+    "cell_type_prediction": "B cells"
   },
   {
     "method": "standard",
     "cluster": "cluster_2",
     "top_genes": [
+      "C14orf64",
       "GATA3",
-      "SEPT1",
       "STMN3",
+      "CISH",
       "BTG2",
       "SH3YL1",
       "SELM",
-      "C14orf64",
-      "CISH",
+      "SEPT1",
       "CXCR4",
-      "GPR183"
+      "RP11-18H21.1"
     ],
-    "cell_type_prediction": "T helper 2 (Th2) cells"
+    "cell_type_prediction": "T cell"
   },
   {
     "method": "standard",
@@ -99,24 +99,24 @@
       "CTSS",
       "FPR1"
     ],
-    "cell_type_prediction": "Monocyte"
+    "cell_type_prediction": "Monocytes"
   },
   {
     "method": "standard",
-    "cluster": "cluster_3",
+    "cluster": "cluster_1",
     "top_genes": [
-      "IL7R",
       "NGFRAP1",
-      "RGCC",
-      "ZNF141",
-      "RPS29",
-      "PILRB",
-      "PASK",
+      "MAL",
+      "ST6GALNAC4",
+      "PRPF38B",
       "PDCD4-AS1",
-      "C14orf64",
-      "DENND2D"
+      "NT5E",
+      "CXCR4",
+      "RQCD1",
+      "PADI4",
+      "RPSA"
     ],
-    "cell_type_prediction": "T cells"
+    "cell_type_prediction": "T cell"
   },
   {
     "method": "standard",
@@ -133,7 +133,7 @@
       "MAP3K7CL",
       "PGRMC1"
     ],
-    "cell_type_prediction": "T cells"
+    "cell_type_prediction": "Monocyte"
   },
   {
     "method": "kneed",
@@ -184,7 +184,7 @@
       "NCF2",
       "SRGN"
     ],
-    "cell_type_prediction": "Monocyte"
+    "cell_type_prediction": "Dendritic cells"
   },
   {
     "method": "kneed",
@@ -218,7 +218,7 @@
       "IL1B",
       "CCL3"
     ],
-    "cell_type_prediction": "Monocyte"
+    "cell_type_prediction": "Monocytes"
   },
   {
     "method": "kneed",
@@ -235,7 +235,7 @@
       "ZNF503",
       "PYCARD"
     ],
-    "cell_type_prediction": "Monocytes."
+    "cell_type_prediction": "Monocyte"
   },
   {
     "method": "kneed",
@@ -252,7 +252,7 @@
       "HGD",
       "C6orf25"
     ],
-    "cell_type_prediction": "Monocytes"
+    "cell_type_prediction": "Dendritic cells"
   },
   {
     "method": "kneed",
@@ -269,7 +269,7 @@
       "THOC7",
       "MMADHC"
     ],
-    "cell_type_prediction": "CD8\u207a T cells"
+    "cell_type_prediction": "The provided gene markers do not correspond to a specific peripheral blood mononuclear cell type."
   },
   {
     "method": "inflection",
@@ -303,6 +303,6 @@
       "ME2",
       "BLK"
     ],
-    "cell_type_prediction": "B cells"
+    "cell_type_prediction": "B cell"
   }
 ]
