@@ -12,7 +12,7 @@ scripts = [
     "01_geth5ad.py",
     "02_filteredh5ad.py",
     "03_clusterh5ad.py",
-    "04_classifyclusters.py",
+    "04_classifyclusters_gpt-4o-live-websearch.py",
     "05_labelumap.py",
     "06_generatereport.py",
     "07_prepareassets.py"
